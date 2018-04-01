@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+	
+		<VersionPrefix>0.1.0</VersionPrefix>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		
+		<PackageId>$(AssemblyName)</PackageId>
+		<PackageReleaseNotes>https://github.com/LTMenezes/DotNetBulkOperations/CHANGELOG.md</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/LTMenezes/DotNetBulkOperations</PackageProjectUrl>
+		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/LTMenezes/DotNetBulkOperations</RepositoryUrl>
+		
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>embedded</DebugType>
+		<DefaultLanguage>en-US</DefaultLanguage>
+		<IncludeSymbols>false</IncludeSymbols>
+		<xUnitVersion>2.3.0-beta5-build3769</xUnitVersion>
+	</PropertyGroup>
+</Project>
