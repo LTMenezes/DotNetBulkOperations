@@ -13,7 +13,7 @@ Supported Operations:
 
 * Bulk Insert
 
-You can keep track of the upcoming features in the [changelog](https://github.com/LTMenezes/DotNetBulkOperations/CHANGELOG.md).
+You can keep track of the upcoming features in the [changelog](https://github.com/LTMenezes/DotNetBulkOperations/blob/master/CHANGELOG.md).
 
 ## Usage
 
@@ -33,7 +33,7 @@ You must define models that represent the table you wish to modify:
     }
 ```
 
-After creating the models you can perform any bulk operation with them:
+After creating the model you can perform any bulk operation with them:
 ```csharp
 connection.BulkInsert<Model>(models);
 ```
